@@ -1,0 +1,33 @@
+{
+  "name": "slurpy-client",
+  "version": "1.0.4",
+  "description": "OpenAPI client for slurpy-client",
+  "author": "OpenAPI-Generator Contributors",
+  "keywords": [
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    "slurpy-client"
+  ],
+  "license": "Unlicense",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^12.11.5",
+    "@types/uuid": "^8.3.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^3.6.4",
+    "uuid": "^8.3.0"
+  }
+}
