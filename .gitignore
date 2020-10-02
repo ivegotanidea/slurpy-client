@@ -3,4 +3,5 @@ node_modules
 typings
 dist
 .openapi-generator
+.openapi-generator-ignore
 .idea
