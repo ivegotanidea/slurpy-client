@@ -1,6 +1,6 @@
 {
   "name": "slurpy-client",
-  "version": "",
+  "version": "1.0.5",
   "description": "OpenAPI client for slurpy-client",
   "author": "OpenAPI-Generator Contributors",
   "keywords": [
